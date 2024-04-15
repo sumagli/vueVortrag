@@ -22,6 +22,21 @@ const router = createRouter({
       path: '/routing',
       name: 'Routing',
       component: () => import('../views/Routing.vue')
+    },
+    {
+      path: '/Components',
+      name: 'Components',
+      component: () => import('../views/Components.vue')
+    },
+    {
+      path: '/vShow',
+      name: 'vShow',
+      component: () => import('../views/VShow.vue')
+    },
+    {
+      path: '/vIf',
+      name: 'vIf',
+      component: () => import('../views/VIf.vue')
     }
   ]
 })
