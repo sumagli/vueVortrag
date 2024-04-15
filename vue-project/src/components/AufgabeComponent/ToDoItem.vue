@@ -22,6 +22,6 @@ const props = defineProps({
 }
 
 .todo-item-container li {
-  list-style-type: none; 
+  list-style-type: none;
 }
 </style>

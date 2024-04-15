@@ -9,7 +9,6 @@ const emit = defineEmits(['remove-todo'])
 <template>
   <div class="todo-item-container">
     <li>{{ props.todo }}</li>
-    
   </div>
 </template>
 
@@ -21,9 +20,23 @@ const emit = defineEmits(['remove-todo'])
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 40px;
+  align-items: center;
 }
 
 button {
+  background-color: red;
+  color: #fff;
+  border-radius: 200px;
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
   cursor: pointer;
+}
+
+li {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 20px;
 }
 </style>
