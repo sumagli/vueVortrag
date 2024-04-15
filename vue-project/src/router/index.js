@@ -19,11 +19,6 @@ const router = createRouter({
       component: () => import('../views/Aufgabe3.vue')
     },
     {
-      path: '/routing',
-      name: 'Routing',
-      component: () => import('../views/Routing.vue')
-    },
-    {
       path: '/Components',
       name: 'Components',
       component: () => import('../views/Components.vue')
@@ -52,7 +47,17 @@ const router = createRouter({
       path: '/emits',
       name: 'Emits',
       component: () => import('../views/Emits.vue')
-    }
+    },
+    {
+      path: '/start',
+      name: 'String Interpolation',
+      component: () => import('../views/StringInterpolation.vue')
+    },
+    {
+      path: '/ref',
+      name: 'Reaktivität',
+      component: () => import('../views/ref.vue')
+    },
   ]
 })
 

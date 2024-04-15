@@ -1,9 +1,16 @@
 <script setup>
+import { ref } from 'vue';
+const msg = 'Not Changed';
+
+const changeMsg = () => {
+  msg = 'Changed';
+}
 </script>
 
 <template>
   <div class="container">
-    <h1>Routing Worked</h1>
+    <h1>{{ msg }}</h1>
+    <button @click="changeMsg">Click me</button>
   </div>
 </template>
 
