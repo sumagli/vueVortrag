@@ -15,10 +15,10 @@ const props = defineProps({
   border: 2px solid #42b883;
   padding: 1rem;
   border-radius: 0.5rem;
-  margin: 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  color: white;
 }
 
 .todo-item-container li {
