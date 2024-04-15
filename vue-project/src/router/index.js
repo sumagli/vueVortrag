@@ -37,6 +37,21 @@ const router = createRouter({
       path: '/vIf',
       name: 'vIf',
       component: () => import('../views/VIf.vue')
+    },
+    {
+      path: '/v-for',
+      name: 'v-for',
+      component: () => import('../views/VFor.vue')
+    },
+    {
+      path: '/event-handling',
+      name: 'Event Handling',
+      component: () => import('../views/EventHandling.vue')
+    },
+    {
+      path: '/emits',
+      name: 'Emits',
+      component: () => import('../views/Emits.vue')
     }
   ]
 })
